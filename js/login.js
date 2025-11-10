@@ -2,12 +2,13 @@
  * Simple client-side validation for the login form.
  * @param {Event} event - The form submission event.
  */
-const submit = document.getElementById('login-button');
+const login_button = document.getElementById('login-button');
 
-submit.onclick = function (event) {
+login_button.onclick = function (event) {
     const usernameInput = document.getElementById('username').value.trim();
     const passwordInput = document.getElementById('password').value.trim();
-    // Set mock (hard-coded) correct credentials
+
+    // just a test to see if it function
     const correctUsername = "Admin";
     const correctPassword = "12345";
 
