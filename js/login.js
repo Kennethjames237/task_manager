@@ -23,10 +23,12 @@ login_button.onclick = function (event) {
     if (usernameInput === correctUsername && passwordInput === correctPassword) {
         // SUCCESS CASE
         alert('Login successful! Welcome Admin.');
-        return true;
 
         // In a real app, you would redirect the user to a dashboard page here:
-        // window.location.href = "dashboard.html";
+         window.location.href = "/navbar.html";
+         return true;
+
+         
         
     } else {
         // FAILURE CASE

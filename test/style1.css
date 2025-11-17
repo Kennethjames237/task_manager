@@ -1,0 +1,31 @@
+.greetings {
+    text-align: center;
+    padding: 5%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.cont {
+    width: 100%;
+    background: darkgray;
+    padding: 5%;
+    margin-bottom: 5%;
+}
+
+.navbar {
+    background-color: white;
+}
+.rates{
+    background-color: darkgray;
+    text-align: center;
+    padding: 5%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+
+}
+.footer{
+    background: black;
+    margin-top: 5%;
+    padding: 5%;
+    text-align: center;
+}

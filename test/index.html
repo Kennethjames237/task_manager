@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width initial-scale=1" />
+    <title>Build a web page using Bootstrap file</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link href="/test/style1.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Navbar -->
+
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img src="/img/logo2.jpg" alt="logo" width="80"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Games">Games</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#About">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Contact">Contact us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Carousel -->
+    <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="3"
+          aria-label="Slide 4"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="/img/g2.jpg" class="d-block w-100" alt="background" />
+        </div>
+        <div class="carousel-item">
+          <img src="/img/4.jpg" class="d-block w-100" alt="logo" />
+        </div>
+        <div class="carousel-item">
+          <img src="/img/3.jpg" class="d-block w-100" alt="3" />
+        </div>
+        <div class="carousel-item">
+          <img src="/img/g1.jpg" class="d-block w-100" alt="4" />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- Main Container -->
+    <div class="container">
+      <h1 class="greetings">"Hello gamers"</h1>
+
+      <div class="cont">
+        🌟 The Benefits of Video Games Video games often get a bad reputation,
+        but many studies show that they can have a wide range of positive
+        effects. One major benefit is that video games improve problem-solving
+        skills. Many games require players to think strategically, plan ahead,
+        and make quick decisions, which helps sharpen the mind. Video games can
+        also improve hand-eye coordination and reaction time. Fast-paced action
+        games, for example, train the brain and body to respond quickly and
+        accurately. This can even help with real-life activities that require
+        precision and timing. Another important benefit is that video games
+        encourage creativity and imagination. Games with open worlds, character
+        building, or story creation let players express themselves in unique and
+        meaningful ways. Video games can also have a positive impact on mental
+        well-being. They offer a fun way to relax, reduce stress, and take a
+        break from daily problems. Online multiplayer games can even help
+        players build social connections, teamwork skills, and a sense of
+        community. Overall, when played in moderation, video games can be more
+        than just entertainment—they can support learning, creativity, social
+        skills, and mental health.
+        <br />
+        <button type="button" class="btn btn-primary btn-lg">
+          Book your gaming zone
+        </button>
+      </div>
+      <!-- Games -->
+      <h1 id="Games" class="greetings">Games</h1>
+
+      <div class="row">
+        <div class="col">
+          <!-- card 1 -->
+          <div class="card">
+            <img src="/img/5.jpg" class="card-img-top" alt="5" />
+            <div class="card-body">
+              <h5 class="card-title">View1</h5>
+              <p class="card-text">
+                Gaming enhances problem-solving skills and boosts creativity by
+                immersing players in interactive challenges. It also improves
+                coordination and strategic thinking while providing
+                entertainment and stress relief.
+              </p>
+              <a href="#" class="btn btn-primary">Read more</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <!-- card 2 -->
+          <div class="card">
+            <img src="/img/6.jpg" class="card-img-top" alt="6" />
+            <div class="card-body">
+              <h5 class="card-title">View2</h5>
+              <p class="card-text">
+                Gaming fosters social connections through multiplayer
+                experiences and teamwork. It can also inspire learning by
+                introducing players to new worlds, stories, and skills.
+              </p>
+              <a href="#" class="btn btn-primary">Read more</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <!-- card 3 -->
+          <div class="card">
+            <img src="/img/7.jpg" class="card-img-top" alt="7" />
+            <div class="card-body">
+              <h5 class="card-title">View3</h5>
+              <p class="card-text">
+                Gaming helps improve quick decision-making and adaptability in
+                dynamic situations. It also encourages perseverance by
+                motivating players to overcome challenges and reach goals.
+              </p>
+              <a href="#" class="btn btn-primary">Read more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- About -->
+      <h1 id="About" class="greetings">About us</h1>
+      <div class="row">
+        <div class="col-6">
+          <div class="rates">
+            <h2>Rates</h2>
+            <p>
+              Popular video games are often rated highly based on their
+              gameplay, graphics, story, and overall player experience. For
+              example, Minecraft has received widespread acclaim with a
+              Metacritic score of 93 for its creative and open-ended gameplay,
+              while Red Dead Redemption 2 is rated 97 for its immersive story
+              and realistic world. Fortnite, though slightly lower at 78, is
+              praised for its fast-paced action and engaging multiplayer modes.
+              These ratings reflect how well a game is received by both critics
+              and players, helping newcomers decide which games are worth
+              trying. High-rated games often offer replay value, frequent
+              updates, and active communities, making them popular across
+              different age groups and regions.
+            </p>
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="rates">
+            <h2>Cost</h2>
+            <p>
+              The cost of popular video games varies depending on the title and
+              edition. Fortnite is free to play, but players can purchase
+              in-game currency called V-Bucks to unlock skins, emotes, or the
+              Battle Pass, with prices starting around €9 for 1,000 V-Bucks.
+              Minecraft typically costs about €30 for the PC edition,
+              offering access to its creative and survival modes. Red Dead
+              Redemption 2 is generally priced around €60 for the standard
+              edition, though occasional discounts can make it more affordable.
+              Overall, while some games are free with optional purchases, others
+              require a one-time payment to access the full experience.
+            </p>
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="rates">
+            <h2>Popular Video Games</h2>
+            <p>
+              Popular video games attract millions of players worldwide because
+              of their engaging stories, exciting gameplay, and strong
+              communities. Titles like Fortnite, Minecraft and GTA V are
+              well-known for their unique styles—ranging from creative building
+              to fast-paced action and open-world exploration. These games often
+              receive regular updates that keep the experience fresh and
+              interesting, adding new challenges, characters, and events. Their
+              massive online communities also make gameplay more interactive,
+              allowing players to team up, compete, and share their creations.
+              Overall, popular video games stand out for their replay value,
+              creativity, and ability to bring people together.
+            </p>
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="rates">
+            <h2>Feature</h2>
+            <p>
+              Video games come with a variety of engaging features that make
+              them enjoyable and immersive. They often include high-quality
+              graphics and sound that bring virtual worlds to life, along with
+              character customization options that let players express their
+              identity. Many games offer rich storylines that keep players
+              emotionally invested, while multiplayer modes allow people to
+              connect and compete with others around the world. Open-world
+              environments give players the freedom to explore and interact with
+              their surroundings, and reward systems such as achievements and
+              upgrades help maintain motivation and engagement.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Contacts -->
+      <h1 id="Contact" class="greetings">Contact</h1>
+
+      <div class="cont">
+        🌟 The Benefits of Video Games Video games often get a bad reputation,
+        but many studies show that they can have a wide range of positive
+        effects. One major benefit is that video games improve problem-solving
+        skills. Many games require players to think strategically, plan ahead,
+        and make quick decisions, which helps sharpen the mind. Video games can
+        also improve hand-eye coordination and reaction time. Fast-paced action
+        games, for example, train the brain and body to respond quickly and
+        accurately. This can even help with real-life activities that require
+        precision and timing. Another important benefit is that video games
+        encourage creativity and imagination. Games with open worlds, character
+        building, or story creation let players express themselves in unique and
+        meaningful ways. Video games can also have a positive impact on mental
+        well-being. They offer a fun way to relax, reduce stress, and take a
+        break from daily problems. Online multiplayer games can even help
+        players build social connections, teamwork skills, and a sense of
+        community. Overall, when played in moderation, video games can be more
+        than just entertainment—they can support learning, creativity, social
+        skills, and mental health.
+        <br />
+        <button type="button" class="btn btn-primary">
+          <a
+            href="https://github.com/Kennethjames237"
+            class="text-white text-decoration-none"
+            >My Git repo</a
+          >
+        </button>
+      </div>
+
+      <h1 class="greetings">More Games</h1>
+      <img src="/img/relax.jpg" , alt="relax" class="w-100 mb-5" />
+    </div>
+    <!-- end of container -->
+
+    <footer class="footer">
+      <p>&copy; Game changer</p>
+      <a href="https://github.com/Kennethjames237" class="text-white"
+        >Visit my repo</a
+      >
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
