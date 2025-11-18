@@ -25,7 +25,7 @@ login_button.onclick = function (event) {
         alert('Login successful! Welcome Admin.');
 
         // In a real app, you would redirect the user to a dashboard page here:
-         window.location.href = "/navbar.html";
+        //  window.location.href = "/test/index.html";
          return true;
 
          
